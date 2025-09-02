@@ -1,0 +1,47 @@
+body.light {
+  --card-bg: #fff;
+  --card-color: #222;
+  background: radial-gradient(#d4b9f0, #be98e6);
+  color: #222;
+}
+
+body.dark {
+  --card-bg: #232323;
+  --card-color: #fff;
+  background: #18122b;
+  color: #f3e8ff;
+}
+
+.theme-toggle-btn {
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: none;
+  background: #7c3aed;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  margin-left: 20px;
+}
+
+.theme-toggle-btn:hover {
+  background: #5b21b6;
+  color: #d45827;
+}
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-layout main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 24px 0 0;
+}

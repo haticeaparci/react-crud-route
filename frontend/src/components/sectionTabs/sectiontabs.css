@@ -1,0 +1,90 @@
+.tabs-section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  background: var(--box-bg, #fff);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  color: var(--box-color, #222);
+}
+
+.tabs-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tabs-list {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.tabs-list button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--tab-btn-color, #6b21a8);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.tabs-list button:hover {
+  background-color: #db36db;
+  color: #fff;
+}
+
+.tabs-list button.active {
+  background-color: #7925d3;
+  color: #fff;
+}
+
+.tab-content {
+  padding: 1rem;
+  border-radius: 4px;
+  background: var(--tab-content-bg, #f3e8ff);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-top: 1rem;
+  color: var(--tab-content-color, #222);
+  display: none;
+}
+
+.tab-content.visible {
+  display: block;
+}
+
+.tab-content.visible code {
+  font-size: 1rem;
+}
+
+.tab-content.visible h3,
+.tab-content.visible p {
+  margin: 15px 0;
+}
+
+body.light {
+  --box-bg: #fff;
+  --box-color: #222;
+  --tab-btn-color: #6b21a8;
+  --tab-content-bg: #f3e8ff;
+  --tab-content-color: #222;
+}
+body.dark {
+  --box-bg: #1a0826;
+  --box-color: #fff;
+  --tab-btn-color: #a18aba;
+  --tab-content-bg: #23153a;
+  --tab-content-color: #fff;
+}
+
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,99 @@
+.event-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.event-form label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #6d28d9;
+  display: block;
+}
+
+.event-form input,
+.event-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #c4b5fd;
+  border-radius: 8px;
+  font-size: 1.08rem;
+  background: #f3f0ff;
+  margin-bottom: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.event-form textarea {
+  min-height: 120px;
+  max-height: 240px;
+}
+
+.event-form button[type="submit"] {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  padding: 14px 0;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+.event-form button[type="submit"]:hover {
+  background: #5b21b6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .event-edit {
+    padding: 16px 4px;
+    max-width: 98vw;
+    border-radius: 8px;
+  }
+  .event-form input,
+  .event-form textarea {
+    font-size: 1rem;
+    padding: 10px 8px;
+    border-radius: 4px;
+  }
+  .event-form button[type="submit"] {
+    font-size: 1rem;
+    padding: 12px 0;
+    border-radius: 6px;
+  }
+}
+
+.event-edit {
+  max-width: 420px;
+}
+
+.event-new,
+.event-edit {
+  max-width: 500px;
+  width: 100%;
+  margin: 48px auto 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  padding: 32px 24px;
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.event-edit h1,
+.event-new h1 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #3b1fa4;
+}
+
+.event-edit p,
+.event-new p {
+  color: #444;
+  margin-bottom: 24px;
+}

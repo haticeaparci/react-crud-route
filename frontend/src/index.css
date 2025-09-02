@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Tema: Light ve Dark */
+body.light {
+  background: radial-gradient(#d4b9f0, #be98e6);
+  color: #222;
+  --box-bg: #fff;
+  --box-color: #222;
+}
+body.dark {
+  background: #18122b;
+  color: #f3e8ff;
+  --box-bg: #1a0826;
+  --box-color: #fff;
+}

@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+  min-height: 36px;
+  padding: 8px 0 4px 0;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+  line-height: 1.2;
+}
+body.light .footer {
+  /* background: #a259f7; */
+  background: #7c3aed;
+  color: #0d0d0e;
+}
+
+body.dark .footer {
+  background: #1a093b;
+  color: #d45827;
+}
+
+html,
+body,
+#root,
+.app-layout {
+  min-height: 100vh;
+  height: 100%;
+}
+.app-layout {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}

@@ -1,0 +1,71 @@
+#main-appbar {
+  box-shadow: 0 2px 12px 0 rgba(80, 0, 120, 0.07);
+  border-bottom: 1.5px solid #e7d8f8;
+  z-index: 800;
+}
+
+#main-appbar .MuiTabs-indicator {
+  background-color: #ea00ff !important;
+  /* height: 3px !important;
+  border-radius: 2px 2px 0 0; */
+}
+#main-appbar .MuiTab-root.Mui-selected {
+  color: #ea00ff !important;
+}
+
+#main-tabs {
+  min-height: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: transparent;
+}
+
+.MuiTab-root {
+  font-family: "Montserrat", "Roboto", Arial, sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+  min-width: 90px;
+  min-height: 56px;
+  text-transform: none;
+  transition: color 0.2s;
+}
+
+@media (max-width: 900px) {
+  #main-tabs {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .MuiTab-root {
+    min-width: 70px;
+    font-size: 0.97rem;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  #main-appbar {
+    min-height: 56px !important;
+    overflow: visible !important;
+  }
+  #main-tabs {
+    min-height: 44px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .MuiTab-root {
+    min-width: 60px;
+    font-size: 0.93rem;
+    padding: 0 4px !important;
+  }
+}
+
+.MuiTabs-scroller::-webkit-scrollbar {
+  height: 10px;
+  background: #eadafa;
+}
+.MuiTabs-scroller::-webkit-scrollbar-thumb {
+  background: #e108f5;
+  border-radius: 10px;
+}

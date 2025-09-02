@@ -1,0 +1,133 @@
+.event-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  /* background: #e0c3fc; */
+}
+
+.event-detail-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(80, 0, 120, 0.12);
+  /* padding: 2rem 2.5rem; */
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box; /* responsive  */
+}
+
+.event-detail-card img {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.event-detail-card h1 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.7rem;
+  color: #4b006e;
+  text-align: center;
+}
+
+.event-detail-card time {
+  font-size: 1rem;
+  color: #6a4b8a;
+  margin-bottom: 1rem;
+}
+
+.event-detail-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.event-detail-card menu {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.event-detail-card a,
+.event-detail-card button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  width: auto;
+}
+
+.event-detail-card a {
+  background: #7f53ac;
+  color: #fff;
+  border: 1px solid #7f53ac;
+}
+
+.event-detail-card a:hover {
+  background: #fff;
+  color: #7f53ac;
+}
+
+.event-detail-card button {
+  background: #fff;
+  color: #d7263d;
+  border: 1px solid #d7263d;
+}
+
+.event-detail-card button:hover {
+  background: #d7263d;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .event-detail-container {
+    min-height: 100vh;
+    padding: 1rem;
+  }
+
+  .event-detail-card {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .event-detail-card img {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+  }
+
+  .event-detail-card h1 {
+    font-size: 1.2rem;
+  }
+
+  .event-detail-card p,
+  .event-detail-card time {
+    font-size: 0.97rem;
+  }
+
+  .event-detail-card menu {
+    flex-direction: column;
+    gap: 0.7rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .event-detail-card a,
+  .event-detail-card button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.6rem 0;
+  }
+}
