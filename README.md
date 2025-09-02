@@ -4,7 +4,7 @@
 ![React Router](https://img.shields.io/badge/React_Router-7+-red?logo=reactrouter)
 ![Material UI](https://img.shields.io/badge/Material_UI-7+-purple?logo=material-ui)
 ![Zustand](https://img.shields.io/badge/Zustand-StateManagement-yellow)
-![Vite](https://img.shields.io/badge/Vite-4+-pink?logo=vite)
+![Vite](https://img.shields.io/badge/Vite-7+-pink?logo=vite)
 ![Jest](https://img.shields.io/badge/Jest-UnitTests-red?logo=jest)
 ![Cypress](https://img.shields.io/badge/Cypress-v15-brightgreen)
 
@@ -48,7 +48,8 @@ Experience the app locally!
 
 Once deployed to **Vercel**, the backend runs **serverless**, and the **live version will be accessible online**.
 
-Demo video: `assets/project-demo.mp4` 🎬
+Demo video: `public/ssets/project-demo.mp4` 🎬
+![Demo](public/assets/project-demo.mp4)
 
 ---
 

@@ -162,10 +162,10 @@
     },
     {
       "title": "Rhythms  Gallery",
-      "date": "2025-08-15",
+      "date": "2025-08-21",
       "image": "https://valeart.ch/wp-content/uploads/2023/01/54-blue-eyes-like-the-sky.jpg",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, corporis quibusdam. Nulla rerum rem soluta dolorem eveniet,quibusdam, nesciunt delectus non temporibus ex amet corporis saepe voluptatum maxime earum tempore!",
-      "updatedAt": "2025-09-02T16:49:52.993Z",
+      "updatedAt": "2025-09-02T21:17:41.201Z",
       "id": "b9e2"
     },
     {
@@ -173,7 +173,7 @@
       "date": "2025-08-01",
       "image": "https://www.visitberlin.de/system/files/styles/visitberlin_bleed_header_visitberlin_mobile_1x/private/image/bar-jeder-vernunft-berlin-theater-innenansicht-c-XAMAX_DL_PPT_1.jpg.jpg?itok=G3VCplnL",
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, corporis quibusdam. Nulla rerum rem soluta dolorem eveniet,quibusdam, nesciunt delectus non temporibus ex amet corporis saepe voluptatum maxime earum tempore!",
-      "updatedAt": "2025-09-02T16:49:30.711Z",
+      "updatedAt": "2025-09-02T21:18:10.039Z",
       "id": "3ebb"
     },
     {
@@ -191,6 +191,14 @@
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, corporis quibusdam. Nulla rerum rem soluta dolorem eveniet,quibusdam, nesciunt delectus non temporibus ex amet corporis saepe voluptatum maxime earum tempore!",
       "updatedAt": "2025-09-02T16:46:02.781Z",
       "id": "6661"
+    },
+    {
+      "id": "8213",
+      "title": "Harmonies Test",
+      "date": "2025-08-12",
+      "image": "https://www.visitberlin.de/system/files/styles/visitberlin_bleed_header_visitberlin_mobile_1x/private/image/bar-jeder-vernunft-berlin-theater-innenansicht-c-XAMAX_DL_PPT_1.jpg.jpg?itok=G3VCplnL",
+      "description": "test",
+      "updatedAt": "2025-09-02T21:18:29.614Z"
     }
   ]
 }
