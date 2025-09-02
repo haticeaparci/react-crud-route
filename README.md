@@ -49,7 +49,7 @@ Experience the app locally!
 Once deployed to **Vercel**, the backend runs **serverless**, and the **live version will be accessible online**.
 
 Demo video: `public/ssets/project-demo.mp4` 🎬
-![Demo](public/assets/project-demo.mp4)
+[Demo Video](./public/assets/project-demo.mp4)
 
 ---
 
