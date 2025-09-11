@@ -54,6 +54,7 @@ export default function Register() {
           margin="normal"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
+          data-cy="register-email"
         />
         <TextField
           label="Password"
@@ -62,6 +63,7 @@ export default function Register() {
           margin="normal"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          data-cy="register-password"
         />
         <TextField
           label="Confirm Password"
@@ -70,6 +72,7 @@ export default function Register() {
           margin="normal"
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
+          data-cy="register-confirm-password"
         />
         <Button
           type="submit"
@@ -77,6 +80,7 @@ export default function Register() {
           color="secondary"
           fullWidth
           sx={{ mt: 2 }}
+          data-cy="register-submit"
         >
           Register
         </Button>
