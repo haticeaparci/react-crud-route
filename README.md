@@ -52,7 +52,7 @@ Demo video: `public/assets/project-demo.mp4` 🎬
 
 [![Demo Video](https://img.youtube.com/vi/_f8ymPeZ8Io/0.jpg)](https://youtu.be/_f8ymPeZ8Io)
 
-[![Demo 2])](https://youtu.be/R-_hauhXsv0)
+[![Demo Video](https://img.youtube.com/vi/_f8ymPeZ8Io/0.jpg)](https://youtu.be/R-_hauhXsv0)
 
 ---
 
