@@ -44,7 +44,7 @@ const EventDetail = () => {
           <Link
             to={`/events/${event.id}/edit`}
             id={`tab-edit`}
-            data-testid={`tab-edit`}
+            data-testid={`edit-event-btn`}
           >
             Edit
           </Link>
@@ -56,7 +56,7 @@ const EventDetail = () => {
             <button
               type="submit"
               id={`tab-delete`}
-              data-testid={`tab-delete`}
+              data-testid={`delete-event-btn`}
               disabled={!isAuthenticated()}
               title={!isAuthenticated() ? "Please Log in to DELETE." : ""}
               style={
